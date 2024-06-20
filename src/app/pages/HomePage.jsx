@@ -13,7 +13,6 @@ import VideoSection from "../components/VideoSection";
 const HomePage = ({ children }) => {
   return (
     <>
-      <Header />
       <HeroHomeSection />
       <AboutUs />
       <MoreAboutUs />
@@ -23,7 +22,6 @@ const HomePage = ({ children }) => {
       <ContactSection />
       <VideoSection />
       <SubscribeSection />
-      <Footer />
     </>
   );
 };
