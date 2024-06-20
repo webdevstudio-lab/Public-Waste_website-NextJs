@@ -24,7 +24,7 @@ const ServiceSection = () => {
               <img
                 src="/serviceimg1.jpg"
                 alt="service image"
-                className="h-[18rem] w-[25rem] rounded-2xl"
+                className="h-[18rem] w-full rounded-2xl lg:w-[25rem]"
               />
 
               <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-green-700 transition-all duration-300 group-hover:block"></div>
@@ -60,7 +60,7 @@ const ServiceSection = () => {
               <img
                 src="/serviceimg2.webp"
                 alt="service image"
-                className="h-[18rem] w-[25rem] rounded-2xl"
+                className="h-[18rem] w-full rounded-2xl lg:w-[25rem]"
               />
 
               <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-green-700 transition-all duration-300 group-hover:block"></div>
@@ -96,7 +96,7 @@ const ServiceSection = () => {
               <img
                 src="/abouUs.webp"
                 alt="service image"
-                className="h-[18rem] w-[25rem] rounded-2xl"
+                className="h-[18rem] w-full rounded-2xl lg:w-[25rem]"
               />
 
               <div className="absolute bottom-0 hidden h-[50%] w-full rounded-b-2xl bg-gradient-to-t from-green-700 transition-all duration-300 group-hover:block"></div>
