@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "AFRICA TELECOM",
-  description: "AFRICA TELECOM WEBSITE",
+  title: "WebdevStudio | Dev hosting",
+  description: "Template for Webdev Site integration",
 };
 
 export default function RootLayout({ children }) {

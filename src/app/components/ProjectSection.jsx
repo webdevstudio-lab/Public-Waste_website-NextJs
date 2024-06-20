@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const ProjectSection = () => {
   return (
-    <div className="bg-[#111D19] py-10 lg:h-[50rem]">
+    <div className="bg-[#111D19] py-10 lg:h-[60rem]">
       <MaxWidthContaine>
         <div className="flex flex-col">
           <div className="flex flex-col gap-4 text-white lg:w-[60%]">
