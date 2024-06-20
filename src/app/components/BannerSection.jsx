@@ -20,7 +20,12 @@ const BannerSection = () => {
         </div>
       </div>
 
-      <div className="w-full space-y-6 bg-green-600 p-10 text-white lg:w-1/2">
+      <div
+        className="w-full space-y-6 bg-green-600 p-10 text-white lg:w-1/2"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        data-aos-once="true"
+      >
         <p className="text-[1.8rem] font-bold">
           We Are Her To Help You Manage Your Business And Home Waste Removal.
         </p>

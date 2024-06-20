@@ -9,7 +9,12 @@ const AboutUs = () => {
     <div className="pt-[5.2rem] lg:pt-0">
       <MaxWidthContaine>
         <div className="flex flex-col items-center rounded-b-2xl shadow-lg lg:flex-row">
-          <div className="relative flex flex-col items-start gap-4 bg-green-600 p-5 text-white lg:w-1/4 lg:rounded-bl-2xl">
+          <div
+            className="relative flex flex-col items-start gap-4 bg-green-600 p-5 text-white lg:w-1/4 lg:rounded-bl-2xl"
+            data-aos="fade-up"
+            data-aos-duration="1600"
+            data-aos-once="true"
+          >
             <p className="text-md font-semibold">Trusted 87% Satisfaction</p>
             <p className="text-xs">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -25,7 +30,12 @@ const AboutUs = () => {
             <Leaf className="absolute -bottom-0 right-2 h-[5rem] w-[5rem] text-white/45" />
           </div>
 
-          <div className="relative flex flex-col items-start gap-4 bg-orange-400 p-5 text-white lg:w-1/4">
+          <div
+            className="relative flex flex-col items-start gap-4 bg-orange-400 p-5 text-white lg:w-1/4"
+            data-aos="fade-right"
+            data-aos-duration="1600"
+            data-aos-once="true"
+          >
             <p className="text-md font-semibold">Subtainable Management</p>
             <p className="text-xs">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -41,7 +51,12 @@ const AboutUs = () => {
             <Brain className="absolute -bottom-0 right-2 h-[5rem] w-[5rem] text-white/45" />
           </div>
 
-          <div className="relative flex flex-row items-center gap-4 bg-white p-5 text-black lg:w-2/4">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1600"
+            data-aos-once="true"
+            className="relative flex flex-row items-center gap-4 bg-white p-5 text-black lg:w-2/4"
+          >
             <div className="w-2/5">
               <p className="text-[1.2rem] font-bold">
                 Processin 70,000 Wonnes Of Recyclable Waste Yearly

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import MaxWidthContaine from "../components/MaxWidthContaine";
 import { ChevronDown, Mail, MenuIcon } from "lucide-react";
+import SmMenutoogle from "../components/SmMenutoogle";
 
 const NavBar = () => {
   return (
@@ -8,7 +9,15 @@ const NavBar = () => {
       <MaxWidthContaine>
         <div className="flex h-[3.2rem] items-center justify-between md:flex-row">
           <div>
-            <h1 className="text-[1.5rem] text-slate-700">LOGO</h1>
+            <h1 className="text-[1.5rem] text-slate-700">
+              <Link href="/">
+                <img
+                  src="/webdev.jpg"
+                  alt="logo webdev"
+                  className="w-10 rounded-full"
+                />
+              </Link>
+            </h1>
           </div>
           <div className="hidden w-3/5 flex-row items-center justify-between lg:flex">
             <div className="flex flex-row items-center justify-between pr-4">
@@ -45,7 +54,7 @@ const NavBar = () => {
               </div>
             </Link>
           </div>
-          <MenuIcon className="cursor-pointer md:hidden" />
+          <SmMenutoogle />
         </div>
       </MaxWidthContaine>
     </div>

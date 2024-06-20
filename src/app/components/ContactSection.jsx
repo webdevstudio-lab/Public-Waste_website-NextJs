@@ -7,7 +7,12 @@ const ContactSection = () => {
   return (
     <div className="mb-2 border-slate-300 lg:border-b-2">
       <MaxWidthContaine>
-        <div className="bottom-[13rem] flex flex-col lg:relative lg:h-[20rem]">
+        <div
+          className="bottom-[13rem] flex flex-col lg:relative lg:h-[20rem]"
+          data-aos="flip-up"
+          data-aos-duration="2000"
+          data-aos-once="true"
+        >
           <div className="flex flex-col rounded-3xl bg-orange-400 lg:flex-row">
             <div className="w-full lg:w-2/5">
               <img

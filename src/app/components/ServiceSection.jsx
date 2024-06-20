@@ -7,7 +7,12 @@ const ServiceSection = () => {
   return (
     <div className="mb-4 mt-4 lg:mt-[7rem]">
       <MaxWidthContaine>
-        <div className="flex flex-col items-center text-center">
+        <div
+          className="flex flex-col items-center text-center"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-once="true"
+        >
           <p className="text-xl font-semibold text-orange-400">
             Safe And Trusted Waste Collection Service
           </p>
@@ -19,7 +24,12 @@ const ServiceSection = () => {
         <div className="mt-10 flex flex-col justify-between gap-10 bg-white lg:flex-row">
           {/* SEPARATOR */}
 
-          <div className="group flex cursor-pointer flex-col shadow-2xl transition-all duration-300 lg:w-[25rem]">
+          <div
+            className="group flex cursor-pointer flex-col shadow-2xl transition-all duration-300 lg:w-[25rem]"
+            data-aos="flip-right"
+            data-aos-duration="1300"
+            data-aos-once="true"
+          >
             <div className="relative">
               <img
                 src="/serviceimg1.jpg"
@@ -55,7 +65,12 @@ const ServiceSection = () => {
 
           {/* SEPARATOR */}
 
-          <div className="group flex cursor-pointer flex-col shadow-2xl transition-all duration-300 lg:w-[25rem]">
+          <div
+            className="group flex cursor-pointer flex-col shadow-2xl transition-all duration-300 lg:w-[25rem]"
+            data-aos="flip-up"
+            data-aos-duration="1500"
+            data-aos-once="true"
+          >
             <div className="relative">
               <img
                 src="/serviceimg2.webp"
@@ -91,7 +106,12 @@ const ServiceSection = () => {
 
           {/* SEPARATOR */}
 
-          <div className="group flex cursor-pointer flex-col shadow-2xl transition-all duration-300 lg:w-[25rem]">
+          <div
+            className="group flex cursor-pointer flex-col shadow-2xl transition-all duration-300 lg:w-[25rem]"
+            data-aos="flip-left"
+            data-aos-duration="1700"
+            data-aos-once="true"
+          >
             <div className="relative">
               <img
                 src="/abouUs.webp"

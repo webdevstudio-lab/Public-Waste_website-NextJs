@@ -1,8 +1,18 @@
+"use client";
+
 import Link from "next/link";
 import MaxWidthContaine from "./MaxWidthContaine";
 import { CircleArrowRight, Play, Star } from "lucide-react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { Typing } from "./Typing";
 
 const HeroHomeSection = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
     <div className="h-[35rem] bg-blue-100 bg-[url('/slider-3-570x470.webp')] bg-cover bg-center bg-no-repeat">
       <div className="h-full w-full bg-gradient-to-br from-black to-slate-600/25">
@@ -10,17 +20,33 @@ const HeroHomeSection = () => {
           <div className="items-left flex flex-col text-white lg:flex-row">
             <div className="flex h-[35rem] w-full flex-col lg:w-1/2">
               <div className="my-auto space-y-10 px-1 lg:px-5">
-                <p className="text-[3rem] font-bold leading-[3.2rem]">
-                  Helping All Types Of Industries And Facimities Sector!
-                </p>
-                <p className="text-[12px]">
+                <div
+                  className="text-[3rem] font-bold leading-[3.2rem]"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                >
+                  Helping All
+                  <br /> Types Of Industries <Typing />
+                </div>
+                <p
+                  className="text-[12px]"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                >
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Rerum, expedita, quam, sed ratione eveniet facere fugit ex
                   quibusdam voluptas culpa neque veritatis minus adipisci autem
                   voluptate dolorem accusantium reiciendis eaque!
                 </p>
 
-                <div className="flex flex-row items-center justify-start gap-10">
+                <div
+                  className="flex flex-row items-center justify-start gap-10"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                >
                   <Link
                     href="#"
                     className="group flex flex-row items-center gap-2 rounded-md bg-white px-2 py-3 text-black transition-all duration-500 hover:bg-green-500"
@@ -49,7 +75,12 @@ const HeroHomeSection = () => {
             </div>
 
             <div className="flex w-full flex-col border-b-2 lg:h-[35rem] lg:w-1/2">
-              <div className="mt-auto flex h-[5rem] flex-row bg-white">
+              <div
+                className="mt-auto flex h-[5rem] flex-row bg-white"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-once="true"
+              >
                 <div className="my-auto w-2/3 px-2 text-xs text-black">
                   <p>
                     <span className="font-semibold text-green-500 underline">
@@ -59,12 +90,43 @@ const HeroHomeSection = () => {
                     exercitationem a
                   </p>
                 </div>
-                <div className="flex w-1/3 flex-row items-center justify-center bg-green-500">
-                  <Star className="h-[20px]" />
-                  <Star className="h-[20px]" />
-                  <Star className="h-[20px]" />
-                  <Star className="h-[20px]" />
-                  <Star className="h-[20px]" />
+
+                <div
+                  className="flex w-1/3 flex-row items-center justify-center bg-green-500"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                  data-aos-once="true"
+                >
+                  <Star
+                    className="h-[20px]"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-once="true"
+                  />
+                  <Star
+                    className="h-[20px]"
+                    data-aos="fade-up"
+                    data-aos-duration="1300"
+                    data-aos-once="true"
+                  />
+                  <Star
+                    className="h-[20px]"
+                    data-aos="fade-up"
+                    data-aos-duration="1400"
+                    data-aos-once="true"
+                  />
+                  <Star
+                    className="h-[20px]"
+                    data-aos="fade-up"
+                    data-aos-duration="1500"
+                    data-aos-once="true"
+                  />
+                  <Star
+                    className="h-[20px]"
+                    data-aos="fade-up"
+                    data-aos-duration="1600"
+                    data-aos-once="true"
+                  />
                 </div>
               </div>
             </div>

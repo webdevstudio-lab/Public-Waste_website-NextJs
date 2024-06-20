@@ -8,7 +8,12 @@ const MoreAboutUs = () => {
     <div className="mb-10 mt-20">
       <MaxWidthContaine>
         <div className="flex flex-col items-center lg:relative lg:flex-row">
-          <div className="flex flex-col gap-6 lg:w-1/2">
+          <div
+            className="flex flex-col gap-6 lg:w-1/2"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-once="true"
+          >
             <div className="space-y-5 lg:pr-20">
               <p className="text-[2.2rem] font-bold">
                 Competive And Reliable Buisiness Waste Collection For 90,000
@@ -70,7 +75,12 @@ const MoreAboutUs = () => {
             </div>
           </div>
 
-          <div className="mt-6 flex w-1/2 flex-row lg:absolute lg:right-0 lg:top-0 lg:mt-0">
+          <div
+            className="mt-6 flex w-1/2 flex-row lg:absolute lg:right-0 lg:top-0 lg:mt-0"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-once="true"
+          >
             <div className="relative">
               <img
                 src="/abouUs.webp"

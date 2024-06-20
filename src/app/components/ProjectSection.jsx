@@ -13,7 +13,12 @@ const ProjectSection = () => {
   return (
     <div className="bg-[#111D19] py-10 lg:h-[60rem]">
       <MaxWidthContaine>
-        <div className="flex flex-col">
+        <div
+          className="flex flex-col"
+          data-aos="fade-up"
+          data-aos-duration="1700"
+          data-aos-once="true"
+        >
           <div className="flex flex-col gap-4 text-white lg:w-[60%]">
             <p className="text-2xl font-bold">
               Helping All Types Of Industries!

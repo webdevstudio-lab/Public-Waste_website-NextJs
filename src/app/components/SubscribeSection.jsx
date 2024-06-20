@@ -7,7 +7,12 @@ const SubscribeSection = () => {
   return (
     <div className="bg-green-700">
       <MaxWidthContaine>
-        <div className="flex flex-col items-center justify-between gap-10 lg:flex-row">
+        <div
+          className="flex flex-col items-center justify-between gap-10 lg:flex-row"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-once="true"
+        >
           <div className="flex w-full flex-col gap-6 py-10 text-white lg:w-1/2">
             <p className="text-[2rem] font-semibold">
               Providing A Regular Trash Collection On A Scheduled Time Or Call
@@ -55,7 +60,12 @@ const SubscribeSection = () => {
           </div>
 
           <div className="flex w-full flex-col gap-6 py-10 text-white lg:w-1/2">
-            <div className="h-[35rem] w-full rounded-lg bg-white p-6 text-black lg:w-[85%]">
+            <div
+              className="h-[35rem] w-full rounded-lg bg-white p-6 text-black lg:w-[85%]"
+              data-aos="flip-up"
+              data-aos-duration="2000"
+              data-aos-once="true"
+            >
               <div>
                 <p className="text-[1.5rem] font-bold">Request Pickup</p>
                 <p className="text-xs text-muted-foreground">
